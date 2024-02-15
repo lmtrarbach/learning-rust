@@ -1,0 +1,12 @@
+C:\Users\rafae\Documents\rust\project3-p2p\target\debug\deps\libsignature-6aa8047ec8aec226.rmeta: C:\Users\rafae\.cargo\registry\src\index.crates.io-6f17d22bba15001f\signature-2.2.0\src\lib.rs C:\Users\rafae\.cargo\registry\src\index.crates.io-6f17d22bba15001f\signature-2.2.0\src\hazmat.rs C:\Users\rafae\.cargo\registry\src\index.crates.io-6f17d22bba15001f\signature-2.2.0\src\encoding.rs C:\Users\rafae\.cargo\registry\src\index.crates.io-6f17d22bba15001f\signature-2.2.0\src\error.rs C:\Users\rafae\.cargo\registry\src\index.crates.io-6f17d22bba15001f\signature-2.2.0\src\keypair.rs C:\Users\rafae\.cargo\registry\src\index.crates.io-6f17d22bba15001f\signature-2.2.0\src\signer.rs C:\Users\rafae\.cargo\registry\src\index.crates.io-6f17d22bba15001f\signature-2.2.0\src\verifier.rs C:\Users\rafae\.cargo\registry\src\index.crates.io-6f17d22bba15001f\signature-2.2.0\src\../README.md
+
+C:\Users\rafae\Documents\rust\project3-p2p\target\debug\deps\signature-6aa8047ec8aec226.d: C:\Users\rafae\.cargo\registry\src\index.crates.io-6f17d22bba15001f\signature-2.2.0\src\lib.rs C:\Users\rafae\.cargo\registry\src\index.crates.io-6f17d22bba15001f\signature-2.2.0\src\hazmat.rs C:\Users\rafae\.cargo\registry\src\index.crates.io-6f17d22bba15001f\signature-2.2.0\src\encoding.rs C:\Users\rafae\.cargo\registry\src\index.crates.io-6f17d22bba15001f\signature-2.2.0\src\error.rs C:\Users\rafae\.cargo\registry\src\index.crates.io-6f17d22bba15001f\signature-2.2.0\src\keypair.rs C:\Users\rafae\.cargo\registry\src\index.crates.io-6f17d22bba15001f\signature-2.2.0\src\signer.rs C:\Users\rafae\.cargo\registry\src\index.crates.io-6f17d22bba15001f\signature-2.2.0\src\verifier.rs C:\Users\rafae\.cargo\registry\src\index.crates.io-6f17d22bba15001f\signature-2.2.0\src\../README.md
+
+C:\Users\rafae\.cargo\registry\src\index.crates.io-6f17d22bba15001f\signature-2.2.0\src\lib.rs:
+C:\Users\rafae\.cargo\registry\src\index.crates.io-6f17d22bba15001f\signature-2.2.0\src\hazmat.rs:
+C:\Users\rafae\.cargo\registry\src\index.crates.io-6f17d22bba15001f\signature-2.2.0\src\encoding.rs:
+C:\Users\rafae\.cargo\registry\src\index.crates.io-6f17d22bba15001f\signature-2.2.0\src\error.rs:
+C:\Users\rafae\.cargo\registry\src\index.crates.io-6f17d22bba15001f\signature-2.2.0\src\keypair.rs:
+C:\Users\rafae\.cargo\registry\src\index.crates.io-6f17d22bba15001f\signature-2.2.0\src\signer.rs:
+C:\Users\rafae\.cargo\registry\src\index.crates.io-6f17d22bba15001f\signature-2.2.0\src\verifier.rs:
+C:\Users\rafae\.cargo\registry\src\index.crates.io-6f17d22bba15001f\signature-2.2.0\src\../README.md:

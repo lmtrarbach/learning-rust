@@ -1,0 +1,12 @@
+C:\Users\rafae\Documents\learning-rust\project3-p2p\target\debug\deps\libcore2-07dc0d6c78c257e4.rmeta: C:\Users\rafae\.cargo\registry\src\index.crates.io-6f17d22bba15001f\core2-0.4.0\src\lib.rs C:\Users\rafae\.cargo\registry\src\index.crates.io-6f17d22bba15001f\core2-0.4.0\src\error.rs C:\Users\rafae\.cargo\registry\src\index.crates.io-6f17d22bba15001f\core2-0.4.0\src\io\mod.rs C:\Users\rafae\.cargo\registry\src\index.crates.io-6f17d22bba15001f\core2-0.4.0\src\io\cursor.rs C:\Users\rafae\.cargo\registry\src\index.crates.io-6f17d22bba15001f\core2-0.4.0\src\io\error.rs C:\Users\rafae\.cargo\registry\src\index.crates.io-6f17d22bba15001f\core2-0.4.0\src\io\impls.rs C:\Users\rafae\.cargo\registry\src\index.crates.io-6f17d22bba15001f\core2-0.4.0\src\io\traits.rs C:\Users\rafae\.cargo\registry\src\index.crates.io-6f17d22bba15001f\core2-0.4.0\src\io\util.rs
+
+C:\Users\rafae\Documents\learning-rust\project3-p2p\target\debug\deps\core2-07dc0d6c78c257e4.d: C:\Users\rafae\.cargo\registry\src\index.crates.io-6f17d22bba15001f\core2-0.4.0\src\lib.rs C:\Users\rafae\.cargo\registry\src\index.crates.io-6f17d22bba15001f\core2-0.4.0\src\error.rs C:\Users\rafae\.cargo\registry\src\index.crates.io-6f17d22bba15001f\core2-0.4.0\src\io\mod.rs C:\Users\rafae\.cargo\registry\src\index.crates.io-6f17d22bba15001f\core2-0.4.0\src\io\cursor.rs C:\Users\rafae\.cargo\registry\src\index.crates.io-6f17d22bba15001f\core2-0.4.0\src\io\error.rs C:\Users\rafae\.cargo\registry\src\index.crates.io-6f17d22bba15001f\core2-0.4.0\src\io\impls.rs C:\Users\rafae\.cargo\registry\src\index.crates.io-6f17d22bba15001f\core2-0.4.0\src\io\traits.rs C:\Users\rafae\.cargo\registry\src\index.crates.io-6f17d22bba15001f\core2-0.4.0\src\io\util.rs
+
+C:\Users\rafae\.cargo\registry\src\index.crates.io-6f17d22bba15001f\core2-0.4.0\src\lib.rs:
+C:\Users\rafae\.cargo\registry\src\index.crates.io-6f17d22bba15001f\core2-0.4.0\src\error.rs:
+C:\Users\rafae\.cargo\registry\src\index.crates.io-6f17d22bba15001f\core2-0.4.0\src\io\mod.rs:
+C:\Users\rafae\.cargo\registry\src\index.crates.io-6f17d22bba15001f\core2-0.4.0\src\io\cursor.rs:
+C:\Users\rafae\.cargo\registry\src\index.crates.io-6f17d22bba15001f\core2-0.4.0\src\io\error.rs:
+C:\Users\rafae\.cargo\registry\src\index.crates.io-6f17d22bba15001f\core2-0.4.0\src\io\impls.rs:
+C:\Users\rafae\.cargo\registry\src\index.crates.io-6f17d22bba15001f\core2-0.4.0\src\io\traits.rs:
+C:\Users\rafae\.cargo\registry\src\index.crates.io-6f17d22bba15001f\core2-0.4.0\src\io\util.rs:

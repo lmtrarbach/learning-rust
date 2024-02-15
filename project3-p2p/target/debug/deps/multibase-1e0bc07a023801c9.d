@@ -1,0 +1,11 @@
+C:\Users\rafae\Documents\rust\project3-p2p\target\debug\deps\libmultibase-1e0bc07a023801c9.rmeta: C:\Users\rafae\.cargo\registry\src\index.crates.io-6f17d22bba15001f\multibase-0.9.1\src\lib.rs C:\Users\rafae\.cargo\registry\src\index.crates.io-6f17d22bba15001f\multibase-0.9.1\src\base.rs C:\Users\rafae\.cargo\registry\src\index.crates.io-6f17d22bba15001f\multibase-0.9.1\src\encoding.rs C:\Users\rafae\.cargo\registry\src\index.crates.io-6f17d22bba15001f\multibase-0.9.1\src\error.rs C:\Users\rafae\.cargo\registry\src\index.crates.io-6f17d22bba15001f\multibase-0.9.1\src\impls.rs
+
+C:\Users\rafae\Documents\rust\project3-p2p\target\debug\deps\libmultibase-1e0bc07a023801c9.rlib: C:\Users\rafae\.cargo\registry\src\index.crates.io-6f17d22bba15001f\multibase-0.9.1\src\lib.rs C:\Users\rafae\.cargo\registry\src\index.crates.io-6f17d22bba15001f\multibase-0.9.1\src\base.rs C:\Users\rafae\.cargo\registry\src\index.crates.io-6f17d22bba15001f\multibase-0.9.1\src\encoding.rs C:\Users\rafae\.cargo\registry\src\index.crates.io-6f17d22bba15001f\multibase-0.9.1\src\error.rs C:\Users\rafae\.cargo\registry\src\index.crates.io-6f17d22bba15001f\multibase-0.9.1\src\impls.rs
+
+C:\Users\rafae\Documents\rust\project3-p2p\target\debug\deps\multibase-1e0bc07a023801c9.d: C:\Users\rafae\.cargo\registry\src\index.crates.io-6f17d22bba15001f\multibase-0.9.1\src\lib.rs C:\Users\rafae\.cargo\registry\src\index.crates.io-6f17d22bba15001f\multibase-0.9.1\src\base.rs C:\Users\rafae\.cargo\registry\src\index.crates.io-6f17d22bba15001f\multibase-0.9.1\src\encoding.rs C:\Users\rafae\.cargo\registry\src\index.crates.io-6f17d22bba15001f\multibase-0.9.1\src\error.rs C:\Users\rafae\.cargo\registry\src\index.crates.io-6f17d22bba15001f\multibase-0.9.1\src\impls.rs
+
+C:\Users\rafae\.cargo\registry\src\index.crates.io-6f17d22bba15001f\multibase-0.9.1\src\lib.rs:
+C:\Users\rafae\.cargo\registry\src\index.crates.io-6f17d22bba15001f\multibase-0.9.1\src\base.rs:
+C:\Users\rafae\.cargo\registry\src\index.crates.io-6f17d22bba15001f\multibase-0.9.1\src\encoding.rs:
+C:\Users\rafae\.cargo\registry\src\index.crates.io-6f17d22bba15001f\multibase-0.9.1\src\error.rs:
+C:\Users\rafae\.cargo\registry\src\index.crates.io-6f17d22bba15001f\multibase-0.9.1\src\impls.rs:

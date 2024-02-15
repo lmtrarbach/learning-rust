@@ -1,0 +1,10 @@
+C:\Users\rafae\Documents\rust\project3-p2p\target\debug\deps\libquick_protobuf-9309dddb5a125dff.rmeta: C:\Users\rafae\.cargo\registry\src\index.crates.io-6f17d22bba15001f\quick-protobuf-0.8.1\src\lib.rs C:\Users\rafae\.cargo\registry\src\index.crates.io-6f17d22bba15001f\quick-protobuf-0.8.1\src\errors.rs C:\Users\rafae\.cargo\registry\src\index.crates.io-6f17d22bba15001f\quick-protobuf-0.8.1\src\message.rs C:\Users\rafae\.cargo\registry\src\index.crates.io-6f17d22bba15001f\quick-protobuf-0.8.1\src\reader.rs C:\Users\rafae\.cargo\registry\src\index.crates.io-6f17d22bba15001f\quick-protobuf-0.8.1\src\sizeofs.rs C:\Users\rafae\.cargo\registry\src\index.crates.io-6f17d22bba15001f\quick-protobuf-0.8.1\src\writer.rs
+
+C:\Users\rafae\Documents\rust\project3-p2p\target\debug\deps\quick_protobuf-9309dddb5a125dff.d: C:\Users\rafae\.cargo\registry\src\index.crates.io-6f17d22bba15001f\quick-protobuf-0.8.1\src\lib.rs C:\Users\rafae\.cargo\registry\src\index.crates.io-6f17d22bba15001f\quick-protobuf-0.8.1\src\errors.rs C:\Users\rafae\.cargo\registry\src\index.crates.io-6f17d22bba15001f\quick-protobuf-0.8.1\src\message.rs C:\Users\rafae\.cargo\registry\src\index.crates.io-6f17d22bba15001f\quick-protobuf-0.8.1\src\reader.rs C:\Users\rafae\.cargo\registry\src\index.crates.io-6f17d22bba15001f\quick-protobuf-0.8.1\src\sizeofs.rs C:\Users\rafae\.cargo\registry\src\index.crates.io-6f17d22bba15001f\quick-protobuf-0.8.1\src\writer.rs
+
+C:\Users\rafae\.cargo\registry\src\index.crates.io-6f17d22bba15001f\quick-protobuf-0.8.1\src\lib.rs:
+C:\Users\rafae\.cargo\registry\src\index.crates.io-6f17d22bba15001f\quick-protobuf-0.8.1\src\errors.rs:
+C:\Users\rafae\.cargo\registry\src\index.crates.io-6f17d22bba15001f\quick-protobuf-0.8.1\src\message.rs:
+C:\Users\rafae\.cargo\registry\src\index.crates.io-6f17d22bba15001f\quick-protobuf-0.8.1\src\reader.rs:
+C:\Users\rafae\.cargo\registry\src\index.crates.io-6f17d22bba15001f\quick-protobuf-0.8.1\src\sizeofs.rs:
+C:\Users\rafae\.cargo\registry\src\index.crates.io-6f17d22bba15001f\quick-protobuf-0.8.1\src\writer.rs:

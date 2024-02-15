@@ -1,0 +1,9 @@
+C:\Users\rafae\Documents\learning-rust\project3-p2p\target\debug\deps\libfutures_executor-899453d125885166.rmeta: C:\Users\rafae\.cargo\registry\src\index.crates.io-6f17d22bba15001f\futures-executor-0.3.30\src\lib.rs C:\Users\rafae\.cargo\registry\src\index.crates.io-6f17d22bba15001f\futures-executor-0.3.30\src\local_pool.rs C:\Users\rafae\.cargo\registry\src\index.crates.io-6f17d22bba15001f\futures-executor-0.3.30\src\thread_pool.rs C:\Users\rafae\.cargo\registry\src\index.crates.io-6f17d22bba15001f\futures-executor-0.3.30\src\unpark_mutex.rs C:\Users\rafae\.cargo\registry\src\index.crates.io-6f17d22bba15001f\futures-executor-0.3.30\src\enter.rs
+
+C:\Users\rafae\Documents\learning-rust\project3-p2p\target\debug\deps\futures_executor-899453d125885166.d: C:\Users\rafae\.cargo\registry\src\index.crates.io-6f17d22bba15001f\futures-executor-0.3.30\src\lib.rs C:\Users\rafae\.cargo\registry\src\index.crates.io-6f17d22bba15001f\futures-executor-0.3.30\src\local_pool.rs C:\Users\rafae\.cargo\registry\src\index.crates.io-6f17d22bba15001f\futures-executor-0.3.30\src\thread_pool.rs C:\Users\rafae\.cargo\registry\src\index.crates.io-6f17d22bba15001f\futures-executor-0.3.30\src\unpark_mutex.rs C:\Users\rafae\.cargo\registry\src\index.crates.io-6f17d22bba15001f\futures-executor-0.3.30\src\enter.rs
+
+C:\Users\rafae\.cargo\registry\src\index.crates.io-6f17d22bba15001f\futures-executor-0.3.30\src\lib.rs:
+C:\Users\rafae\.cargo\registry\src\index.crates.io-6f17d22bba15001f\futures-executor-0.3.30\src\local_pool.rs:
+C:\Users\rafae\.cargo\registry\src\index.crates.io-6f17d22bba15001f\futures-executor-0.3.30\src\thread_pool.rs:
+C:\Users\rafae\.cargo\registry\src\index.crates.io-6f17d22bba15001f\futures-executor-0.3.30\src\unpark_mutex.rs:
+C:\Users\rafae\.cargo\registry\src\index.crates.io-6f17d22bba15001f\futures-executor-0.3.30\src\enter.rs:
