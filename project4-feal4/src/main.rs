@@ -72,11 +72,11 @@ fn main() {
                         }
                     };
 
-                    let s_23_29: u32 = (l0 ^ r0 ^ l4);
-                    let s_31: u32 = (l0 ^ l4 ^ r4);
+                    let s_23_29: u32 = (l0 ^ r0 ^ l4) & 1;
+                    let s_31: u32 = (l0 ^ l4 ^ r4) & 1;
                     let f_result: (u32, u32, u32, u32) = f(l0 ^ r0 ^ key, 0, 0, 0);
                     let s_31_f_round = (f_result.0);
-                    let a = (s_23_29 ^ s_31 ^ s_31_f_round);
+                    let a = (s_23_29 ^ s_31 ^ s_31_f_round) & 1;
                     if a == 0 {
                         sum_zeros += 1;
                     }    
