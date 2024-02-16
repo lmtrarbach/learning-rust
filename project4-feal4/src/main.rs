@@ -37,8 +37,11 @@ fn main() {
                 data.push(cleaned_line);
             }
         }
-
-        for key in 1..=u32::pow(2, 31) {
+        let key_range = u32::pow(2, 32) - 1;
+        for key in 1..=key_range {
+            if key % 1000000 == 0 {
+                println!("Keys: {}/{}", key, key_range);
+            }
             let mut sum_zeros = 0;
             let mut sum_ones = 0;
             for text in data.chunks(2) {
