@@ -1,22 +1,35 @@
 use std::fs;
 
-fn f(x0: u32, x1: u32, x2: u32, x3: u32) -> (u32, u32, u32, u32) {
-    fn g0(a: u32, b: u32) -> u32 {
-        let result: u32 = (a.wrapping_add(b)) % 256;
-        (result << 2) | (result >> 6)
-    }
+fn f(input: u32) -> u32 {
+    // Unpack bytes from a 32-bit word
+    let x0 = (input >> 24) as u8;
+    let x1 = (input >> 16) as u8;
+    let x2 = (input >> 8) as u8;
+    let x3 = input as u8;
 
-    fn g1(a: u32, b: u32) -> u32 {
-        let result = (a.wrapping_add(b).wrapping_add(1)) % 256;
-        (result << 2) | (result >> 6)
-    }
+    // Define helper functions g0 and g1 inline
+    let g0 = |a: u8, b: u8| -> u8 {
+        let result = (a as u32).wrapping_add(b as u32) % 255;
+        let shifted_result = ((result << 2) | (result >> 6)) as u8;
+        shifted_result
+    };
+    
+    let g1 = |a: u8, b: u8| -> u8 {
+        let result = ((a as u32).wrapping_add(b as u32) + 1) % 255;
+        let shifted_result = ((result << 2) | (result >> 6)) as u8;
+        shifted_result
+    };
 
+    // Perform calculations inline
     let y0 = g0(x0, x1);
     let y1 = g1(x0 ^ x1, x2 ^ x3);
     let y2 = g0(y1, x2 ^ x3);
     let y3 = g1(y2, x3);
 
-    (y0, y1, y2, y3)
+    // Pack bytes into a 32-bit word
+    let result = u32::from(y0) << 24 | u32::from(y1) << 16 | u32::from(y2) << 8 | u32::from(y3);
+
+    result
 }
 
 fn main() {
@@ -37,8 +50,8 @@ fn main() {
                 data.push(cleaned_line);
             }
         }
-        let key_range = u32::pow(2, 32) - 1;
-        for key in 1..=key_range {
+        let key_range =u32::MAX;
+        for key in 0..=key_range {
             if key % 1000000 == 0 {
                 println!("Keys: {}/{}", key, key_range);
             }
@@ -46,28 +59,28 @@ fn main() {
             let mut sum_ones = 0;
             for text in data.chunks(2) {
                 if let [plaintext, ciphertext] = text {
-                    let l0 = match u32::from_str_radix(&plaintext[0..7], 16) {
+                    let l0 = match u32::from_str_radix(&plaintext[0..8], 16){
                         Ok(value) => value,
                         Err(e) => {
                             println!("Error parsing hexadecimal: {:?}", e);
                             continue;
                         }
                     };
-                    let r0 = match u32::from_str_radix(&plaintext[8..15], 16) {
+                    let r0 = match u32::from_str_radix(&plaintext[8..16], 16) {
                         Ok(value) => value,
                         Err(e) => {
                             println!("Error parsing hexadecimal: {:?}", e);
                             continue;
                         }
                     };
-                    let l4 = match u32::from_str_radix(&ciphertext[0..7], 16) {
+                    let l4 = match u32::from_str_radix(&ciphertext[0..8],16) {
                         Ok(value) => value,
                         Err(e) => {
                             println!("Error parsing hexadecimal: {:?}", e);
                             continue;
                         }
                     };
-                    let r4 = match u32::from_str_radix(&ciphertext[8..15], 16) {
+                    let r4 = match u32::from_str_radix(&ciphertext[8..16], 16) {
                         Ok(value) => value,
                         Err(e) => {
                             println!("Error parsing hexadecimal: {:?}", e);
@@ -75,15 +88,15 @@ fn main() {
                         }
                     };
 
-                    let s_23_29: u32 = (l0 ^ r0 ^ l4) & 1;
+                    let s_23_29: u32 = (((l0 ^ r0 ^ l4) >> 8) & 1) ^ (((l0 ^ r0 ^ l4) >> 2) & 1);
                     let s_31: u32 = (l0 ^ l4 ^ r4) & 1;
-                    let f_result: (u32, u32, u32, u32) = f(l0 ^ r0 ^ key, 0, 0, 0);
-                    let s_31_f_round = (f_result.0);
-                    let a = (s_23_29 ^ s_31 ^ s_31_f_round) & 1;
+                    let f_result = f(l0 ^ r0 ^ key) & 1;
+                    let s_31_f_round = f_result;
+                    let a = s_23_29 ^ s_31 ^ s_31_f_round;
                     if a == 0 {
                         sum_zeros += 1;
                     }    
-                    else {
+                    else if a ==1 {
                         sum_ones += 1;
                     }
 
@@ -95,8 +108,9 @@ fn main() {
                     println!("Error: Invalid data format");
                 }
             }
-            if sum_zeros > 195 || sum_ones > 195 {
+            if sum_zeros > 190 || sum_ones > 190 {
                 println!("Found key: {}", key);
+                println!("Zeros:{} Ones:{}", sum_zeros, sum_ones);
                 found_keys.push(key);
             }
         }
