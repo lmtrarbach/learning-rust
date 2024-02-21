@@ -9,13 +9,13 @@ fn f(input: u32) -> u32 {
 
     // Define helper functions g0 and g1 inline
     let g0 = |a: u8, b: u8| -> u8 {
-        let result = (a as u32).wrapping_add(b as u32) % 255;
+        let result = (a as u32).wrapping_add(b as u32) % 256;
         let shifted_result = ((result << 2) | (result >> 6)) as u8;
         shifted_result
     };
     
     let g1 = |a: u8, b: u8| -> u8 {
-        let result = ((a as u32).wrapping_add(b as u32) + 1) % 255;
+        let result = ((a as u32).wrapping_add(b as u32) + 1) % 256;
         let shifted_result = ((result << 2) | (result >> 6)) as u8;
         shifted_result
     };
@@ -25,10 +25,10 @@ fn f(input: u32) -> u32 {
     let y1 = g1(x0 ^ x1, x2 ^ x3);
     let y2 = g0(y1, x2 ^ x3);
     let y3 = g1(y2, x3);
-
+    
     // Pack bytes into a 32-bit word
-    let result = u32::from(y0) << 24 | u32::from(y1) << 16 | u32::from(y2) << 8 | u32::from(y3);
-
+    let result: u32 = u32::from(y0) << 24 | u32::from(y1) << 16 | u32::from(y2) << 8 | u32::from(y3);
+    //println!("Result: {} Input: {}", result, input);
     result
 }
 
@@ -88,27 +88,29 @@ fn main() {
                         }
                     };
 
-                    let s_23_29: u32 = (((l0 ^ r0 ^ l4) >> 8) & 1) ^ (((l0 ^ r0 ^ l4) >> 2) & 1);
+                    let s_23_29: u32 = (((l0 ^ r0 ^ l4) >> 8) & 1) ^ (((l0 ^ r0 ^ l4) >> 2
+                ) & 1);
                     let s_31: u32 = (l0 ^ l4 ^ r4) & 1;
-                    let f_result = f(l0 ^ r0 ^ key) & 1;
+                    let f_result: u32 = f(l0 ^ r0 ^ key) & 1;
                     let s_31_f_round = f_result;
-                    let a = s_23_29 ^ s_31 ^ s_31_f_round;
+                    let a = (s_23_29 as u32 ) ^ (s_31 as u32) ^ s_31_f_round;
+                    //println!(" l0:{} r0:{} s_23_29:{} s_31:{} s_31_f_round:{}", l0,r0,s_23_29,s_31,f_result);
                     if a == 0 {
                         sum_zeros += 1;
                     }    
-                    else if a ==1 {
+                    else if a == 1 {
                         sum_ones += 1;
                     }
-
-                    if sum_zeros > 20 && sum_ones > 20 {
+                   
+                    if sum_zeros > 5 && sum_ones > 5 {
                         break;
-                        }
+                    }
                     
                 } else {
                     println!("Error: Invalid data format");
                 }
             }
-            if sum_zeros > 190 || sum_ones > 190 {
+            if sum_zeros > 199 || sum_ones > 199 {
                 println!("Found key: {}", key);
                 println!("Zeros:{} Ones:{}", sum_zeros, sum_ones);
                 found_keys.push(key);
